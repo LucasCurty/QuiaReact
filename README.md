@@ -8,5 +8,6 @@
 - JavaScript
 - CSS
 - React.js
+- React-router-Dom
 <br>
 <p align="center"><strong>Clique <a href="https://lucascurty.github.io/Quiz/">aqui</a>, para ir para o site.</strong></p>
