@@ -1,0 +1,112 @@
+/*|=========> RESET <===========| */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+button{
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+/*|=========> APP CONFIG <===========| */
+.App{
+    width: 100%;
+    max-width: 900px;
+    height: 600px;
+    margin: 4rem auto;
+    
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.39);
+    background-color: rgba(91, 123, 211, 0.884);
+}
+/* |=========> SECTION Start <===========|  */
+.Start{ 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+}
+.Start h1{
+    margin-bottom: 2rem;
+}
+.Start p {
+    margin-bottom: 2rem;
+}
+.Start  button{
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background-color: #C9D5F8;
+    width: 200px;
+    cursor: pointer;
+}
+.Start > a button:hover{
+    background-color: #2F50AB;
+    color: white;
+}
+.Start a button{
+    font-size: 1rem;
+    color: black;
+}
+/* |=========> SECTION QUESTIONS <===========|  */
+.Questions{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+}
+.Questions .qts{
+    font-size: 1rem;
+    color: black;
+}
+.Questions h1{
+    margin-top: 4rem;
+}
+.Questions .btns{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+
+    margin-top: 4rem;
+}
+.btns button{
+    margin-top: 1rem;
+    padding: 1rem 4rem;
+    background-color: #C9D5F8;
+    color: black;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btns button:hover{
+    background-color:  #2F50AB;
+    color: white;
+}
+.Recomeçar{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+}
+.Recomeçar button{
+    width: 100%;
+    padding: 1rem 2rem; 
+    margin-top: 2rem;
+    border-radius: 5px;
+
+    background-color: rgba(189, 28, 28, 0.712);
+    color: white;
+    cursor: pointer;
+}
+.Recomeçar button:hover{
+    background-color: red;
+}
+.point{
+    color :black;
+}
